@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Help</title>
+    <link rel="icon" href="/images/icons8-help-24.png">
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+<body>
+    {{> nav }}
+    <div class="container-fluid mt-3">
+       <div class="row d-flex justify-content-center">
+           <div class="col-md-4">
+                <h1 class="text-center">{{ title }}</h1>
+                <p class="text-center">{{ message }}</p>
+           </div>
+       </div>
+    </div>
+
+    {{> footer }}
+    {{> scripts }}
+</body>
+</html>

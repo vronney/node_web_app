@@ -1,0 +1,38 @@
+body {
+    background-color: #2F3242 !important;
+    color: #fff !important;
+}
+
+img {
+    width: 250px;
+}
+
+a {
+    color: grey !important
+}
+
+a.active {
+    color: black !important;
+}
+
+.family {
+    margin-top: auto;
+    margin-bottom: auto;
+    height: 200px;
+}
+
+@media only screen and (max-width: 400px) {
+    .family-container {
+        margin-bottom: 50px;
+    }
+    
+    .family {
+        margin-bottom: 20px;
+    }
+}
+
+footer {
+    height: auto;
+    width: 100%;
+    padding: 10px;
+}
