@@ -22,7 +22,11 @@ a.active {
 }
 
 @media only screen and (max-width: 400px) {
-    .family-container {
+    /* .family-container {
+        margin-bottom: 100px;
+    } */
+
+    .about-container {
         margin-bottom: 100px;
     }
     
