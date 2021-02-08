@@ -26,6 +26,10 @@ a.active {
         margin-bottom: 100px;
     } */
 
+    .about-container img {
+        height: 300px;
+    }
+
     .about-container {
         margin-bottom: 100px;
     }
