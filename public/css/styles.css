@@ -23,7 +23,7 @@ a.active {
 
 @media only screen and (max-width: 400px) {
     .family-container {
-        margin-bottom: 50px;
+        margin-bottom: 100px;
     }
     
     .family {
