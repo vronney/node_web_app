@@ -26,7 +26,7 @@ a.active {
         margin-bottom: 100px;
     } */
 
-    .about-container img {
+    .about-container image1 {
         height: 300px;
     }
 
@@ -35,6 +35,7 @@ a.active {
     }
     
     .family {
+        height: 250px;
         margin-bottom: 20px;
     }
 }
