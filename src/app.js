@@ -1,5 +1,6 @@
 const path = require('path')
 const express = require('express')
+const content = require('../public/data/content.json')
 const geocode = require('./utils/geocode')
 const forecast = require('./utils/weather_code')
 const hbs = require('hbs')
@@ -37,8 +38,8 @@ hbs.registerHelper("if", function(string1 ,string2, options) {
 app.get('/', (req, res) => {
     res.render('weather', {
         path: '/',
-        title: 'Weather',
-        name: "Ron Vargas"
+        title: content.home.title,
+        name: content.footer.name
     })
 })
 
@@ -46,8 +47,11 @@ app.get('/', (req, res) => {
 app.get('/about', (req, res) => {
     res.render('about', {
         path: 'about',
-        title: 'Welcome to the About Page!',
-        name: 'Ron Vargas'
+        title: content.about.title,
+        text1: content.about.text1,
+        text2: content.about.text2,
+        text3: content.about.text3,
+        name: content.footer.name
     })
 })
 
@@ -55,9 +59,9 @@ app.get('/about', (req, res) => {
 app.get('/help', (req, res) => {
     res.render('help', {
         path: 'help',
-        title: 'Help Page',
-        message: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-        name: "Ron Vargas"
+        title: content.help.title,
+        message: content.help.message,
+        name: content.footer.name
     })
 })
 

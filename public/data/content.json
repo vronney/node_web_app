@@ -1,0 +1,22 @@
+{
+    "home": 
+    {
+        "title": "Weather"
+    },
+    "about": 
+    {
+        "title": "About Us",
+        "text1": "The first official weather forecast ever appeared on the first of August 1861. The legendary vice-admiral Robert Fitzroy, a royal-navy officer and pioneer in meteorology, was collecting data for his Meteorological Office from 15 land stations across England. Nowadays, there are over 40000 stations across our planet, accessible via free, affordable, advanced, and accurate technologies.",
+        "text2": "For this project, we used node.js – one of the most popular run-time environments for JavaScript.",
+        "text3": "Node.js helps create fast and advanced web applications. It has many additional libraries/modules for any purpose."
+    },
+    "help": 
+    {
+        "title": "Help Page",
+        "message": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+    },
+    "footer": 
+    {
+        "name": "Ron Vargas"
+    }
+}
