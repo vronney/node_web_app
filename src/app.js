@@ -98,14 +98,14 @@ app.get('/weather', (req, res) => {
 // Help wild card
 app.get('/help/*', (req, res) => {
     res.render('help-404', {
-        name: "Ron Vargas"
+        name: content.footer.name
     })
 })
 
 // Wild card 
 app.get('*', (req, res) => {
     res.render('404', {
-        name: "Ron Vargas"
+        name: content.footer.name
     })
 })
 
