@@ -26,7 +26,7 @@ weatherForm.addEventListener('submit', (e) => {
                 forecast.innerHTML = `
                     <p>The current temperature is ${data.temp}°</p>
                     <p>Feelslike ${data.feelslike}°</p>
-                    <p>There is a ${data.precip}% chance of rain</p>
+                    <p>${data.precip} inches of rain</p>
                     `
                 searchEl.value = ''
             }
