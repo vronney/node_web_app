@@ -40,6 +40,23 @@ a.active {
     }
 }
 
+@media only screen and (max-width: 768px) {
+    .about-container .row {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto auto;
+        place-items: center;
+    }
+
+    .about-content {
+        max-width: 100% !important;
+    }
+
+    .family {
+        margin-bottom: 100px;
+    }
+}
+
 footer {
     height: auto;
     width: 100%;
