@@ -40,7 +40,7 @@ a.active {
     }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 800px) {
     .about-container .row {
         display: grid;
         grid-template-columns: 1fr;
